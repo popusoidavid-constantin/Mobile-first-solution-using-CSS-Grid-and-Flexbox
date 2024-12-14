@@ -1,0 +1,214 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 37.5%;
+  border-radius: 25px;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(242, 221, 196);
+}
+
+img {
+  width: 89%;
+  border-radius: 25px;
+}
+
+.Image {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.Header p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  font-size: 15px;
+}
+
+.PreparationBox {
+  border-radius: 10px;
+  width: 85%;
+  background-color: rgba(219, 203, 235, 0.351);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.PreparationBox li {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  padding-left: 15px;
+}
+
+.PreparationBox ul {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.IngredientsBox {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom: 1.5px solid rgba(91, 71, 109, 0.283);
+}
+.IngredientsBox h2 {
+  margin-bottom: 0px;
+}
+.IngredientsBox ul {
+  padding-left: 20px;
+}
+
+.IngredientsBox li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.579);
+  margin-bottom: 13px;
+  padding-left: 20px;
+}
+
+.InstructionsBox {
+  border-bottom: 1.5px solid rgba(91, 71, 109, 0.283);
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.InstructionsBox h2 {
+  margin-bottom: 0px;
+}
+.InstructionsBox ol {
+  padding-left: 20px;
+}
+.InstructionsBox li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.579);
+  margin-bottom: 13px;
+  padding-left: 20px;
+}
+
+.NutritionBox {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: 30px;
+}
+
+.NutritionBox p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.579);
+}
+
+.NutritionBox table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.NutritionBox table td {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.579);
+  font-size: 15px;
+  padding: 15px;
+}
+
+.NutritionBox table tr {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 1.5px solid rgba(157, 139, 93, 0.283);
+}
+
+.NutritionBox table .last {
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #985c31; /* Adjust the color to match the shade */
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 570;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-left: 18px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  color: rgb(129, 68, 139);
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+table b {
+  color: #985c31;
+}
+
+@media screen and (max-width: 768px) {
+  .Main {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 0px;
+  }
+  body {
+    margin: 0px;
+  }
+  img {
+    border-radius: 0px;
+    height: 180px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Image {
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+  }
+  .PreparationBox {
+    width: 75%;
+  }
+}
